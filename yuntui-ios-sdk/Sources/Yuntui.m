@@ -80,7 +80,9 @@
     }
     self.pushPayload = pushPayload;
     for(Event *event in self.dataManager.events) {
-        [event.eventProperties addEntriesFromDictionary:pushPayload];
+        if ([event.sessionId isEqualToString:self.sessionId]) {
+            [event.eventProperties addEntriesFromDictionary:pushPayload];
+        }
     }
 }
 
