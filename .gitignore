@@ -1,0 +1,10 @@
+Output
+.DS_Store
+*.swp
+*~.nib
+Pods
+build/
+xcuserdata/
+*.pbxuser
+*.perspective
+*.perspectivev3
