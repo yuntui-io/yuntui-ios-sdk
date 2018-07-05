@@ -7,5 +7,5 @@ target 'yuntui-ios-sdk' do
 
   # Pods for yuntui-ios-sdk
 pod 'JPush'
-
+pod 'GTSDK', '2.3.0.0-noidfa'
 end

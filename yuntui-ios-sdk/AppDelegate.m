@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "JPUSHService.h"
 #import <UserNotifications/UserNotifications.h>
+#import <GTSDK/GeTuiSdk.h>
 #import "Yuntui.h"
 
 @interface AppDelegate ()<JPUSHRegisterDelegate>
