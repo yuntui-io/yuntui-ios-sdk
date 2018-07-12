@@ -30,7 +30,7 @@
     
     [[Yuntui shared] setupWithAppKey:@"test_app_key"];
     [[Yuntui shared] setAppUserId:@"123123123"];
-    [[Yuntui shared] setUserProperties:@{@"age": @(1), @"gender": @"male"}];
+    [[Yuntui shared] setUserProperties:@{@"age": @(1), @"gender": @"male", @"mobile": @"13917510222"}];
 
     [JPUSHService registrationIDCompletionHandler:^(int resCode, NSString *registrationID) {
         if (registrationID) {

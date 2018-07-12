@@ -20,7 +20,7 @@
 @end
 
 @implementation Yuntui
-+ (id)shared {
++ (Yuntui *)shared {
     static Yuntui *sharedMyManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

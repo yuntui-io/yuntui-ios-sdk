@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Yuntui: NSObject
-+ (id)shared;
++ (Yuntui *)shared;
 - (void)setupWithAppKey:(NSString *)appKey;
 - (void)setAppUserId:(NSString *)appUserId;
 - (void)setPushId:(NSString *)pushId;
